@@ -1,0 +1,32 @@
+{
+  "route": {
+    "depCity": "Toulouse",
+    "arrCity": "Munchen",
+    "stops": [
+      "Narbonne",
+      "Lyon",
+      "Grenoble"
+    ],
+    "distance": {
+      "Toulouse": {
+        "Narbonne": 100
+      },
+      "Narbonne": {
+        "Lyon": 400
+      },
+      "Lyon": {
+        "Grenoble": 50
+      },
+      "Grenoble": {
+        "Munchen": 900
+      }
+    }
+  },
+  "costPerKm": 1,
+  "Passengers": {
+    "A": "Narbonne",
+    "B": "Lyon",
+    "C": "Grenoble",
+    "D": "Munchen"
+  }
+}
